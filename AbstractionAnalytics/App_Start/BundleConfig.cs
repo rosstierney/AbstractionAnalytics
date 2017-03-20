@@ -27,6 +27,7 @@ namespace AbstractionAnalytics
                       "~/Content/bootstrap.css",
                       "~/Content/navbar.css",
                       "~/Content/font-awesome.css",
+                      "~/Content/Footer-with-button-logo.css",
                       "~/Content/Site.css"));
         }
     }

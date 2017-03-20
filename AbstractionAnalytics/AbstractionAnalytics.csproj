@@ -162,6 +162,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Footer-with-button-logo.css" />
     <Content Include="Content\images\Abstraction_Logo.png" />
     <Content Include="Content\images\Abstraction_navbar_Logo.png" />
     <Content Include="Content\images\big-data.png" />
