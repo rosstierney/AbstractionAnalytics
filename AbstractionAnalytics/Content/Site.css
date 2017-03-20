@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif !important;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +23,52 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.box {
+    background: rgb(131,145,192);
+    padding:2%;
+}
+
+.box-header {
+    background: rgb(77,86,137);
+    padding-top:1%;
+    padding-bottom:2%;
+    margin-bottom:0;
+    color:#f8f8f8;
+   
+}
+
+#fullname,#email,#city,#enquiry,#telephone,#btnContact {
+    width:100%;
+    padding:2%;
+    margin:2%;
+}
+input,select,text,textarea  {
+    max-width:1000px !important;
+    width:100% !important;
+}
+
+#main-logo {
+    padding-top:3%;
+    padding-bottom:3%;
+    width:40%;
+}
+
+.header {
+    color: #36A0Ff;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    color: #f8f8f8 !important;
+    width:100%;
+    padding:2%;
+    margin-top:10%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
