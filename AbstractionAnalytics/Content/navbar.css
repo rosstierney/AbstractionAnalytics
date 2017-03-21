@@ -65,3 +65,7 @@
     -o-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
 }
+
+.navbar > navbar-default {
+    background-color:rgba(0,0,0,0.0) !important;
+}

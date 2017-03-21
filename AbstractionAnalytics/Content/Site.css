@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Roboto Slab', serif !important;
 }
@@ -24,16 +23,20 @@ textarea {
     max-width: 280px;
 }
 
+.container-fluid {
+    padding:0 !important;
+}
+
 .box {
-    background: rgb(131,145,192);
+    background: rgba(131,145,192,0.85);
     padding:2%;
 }
 
 .box-header {
-    background: rgb(77,86,137);
+    background: rgba(77,86,137, 0.85);
     padding-top:1%;
     padding-bottom:2%;
-    margin-bottom:0;
+    margin:0 !important;
     color:#f8f8f8;
    
 }
@@ -72,3 +75,81 @@ input,select,text,textarea  {
       width: 70%;
       margin: auto;
   }
+
+#main-div {
+    background-image: url(../Content/images/Graph-ipad.png);
+    padding:0;
+    background-size: 100% 100%;
+    -moz-transition: all 7s;
+    -webkit-transition: all 7s;
+    transition: all 7s;
+    
+}
+
+#services-div {
+    background-image: url(../Content/images/meeting-img.png);
+    padding:0;
+    background-size: 100% 100%;
+    -moz-transition: all 7s;
+    -webkit-transition: all 7s;
+    transition: all 7s;
+    
+}
+
+#contact {
+    background: url(../Content/images/phone.png) no-repeat center center;
+    background-size:cover;
+    padding:0;
+}
+
+#main-div:hover, #services-div:hover{
+    background-size: 120% 120%;
+}
+
+#intro-text {
+     padding-top:10%;
+     padding-left:22%;
+     padding-right:22%;
+     text-align:center;
+     font-size:24px;
+     color:#f8f8f8;
+}
+
+#service-text {
+     padding-top:10%;
+     text-align:left;
+     font-size:24px;
+     color:#f8f8f8;
+}
+
+
+
+.layer {
+    background-color: rgba(131, 145, 192, 0.85); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-layer {
+    background-color: rgba(77, 86, 137, 0.85); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mybutton {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;  
+    border: 2px solid #fff;
+    border-radius:0;
+}
+
+.mybutton:hover {
+    background-color: #4d5689; /* purple */
+    border: 2px solid #4d5689; /* purple */
+    color: #fff; 
+}
+

@@ -21,13 +21,16 @@ namespace AbstractionAnalytics
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                       "~/Scripts/demo.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/navbar.css",
                       "~/Content/font-awesome.css",
+                      "~/Content/animation.css",
+                      "~/Content/animate.min.css",
                       "~/Content/Footer-with-button-logo.css",
+                      "~/Content/navbar.css",
                       "~/Content/Site.css"));
         }
     }
