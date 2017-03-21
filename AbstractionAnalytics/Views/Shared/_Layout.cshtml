@@ -17,6 +17,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="~/Content/animate.css">
     <link rel="stylesheet" href="~/Content/animate.min.css">
+    <script language="javascript" type="text/javascript">
+        $(window).ready(function () {
+            //Preloader 
+            $('#status').delay(300).fadeOut();
+            $('#preloader').delay(300).fadeOut('slow');
+            $('body').delay(550).css({ 'overflow': 'visible' });
+        })
+    </script>
 </head>
 <body>
     <div class="navbar navbar-default" style="margin:0 !important; background-color:rgba(0,0,0,0.0) !important;">
@@ -48,7 +56,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-3">
-                        <h2 class="logo"><img src="~/Content/images/Abstraction_navbar_Logo.png" width="250" ></h2>
+                        <h2 class="logo"><img id="footer-logo" src="~/Content/images/Abstraction_navbar_Logo.png" ></h2>
                     </div>
                     <div class="col-sm-2">
                         <h5>Get started</h5>

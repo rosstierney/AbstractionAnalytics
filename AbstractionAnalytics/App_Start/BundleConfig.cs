@@ -30,7 +30,10 @@ namespace AbstractionAnalytics
                       "~/Content/animation.css",
                       "~/Content/animate.min.css",
                       "~/Content/Footer-with-button-logo.css",
+                      "~/Content/768px.css",
+                      "~/Content/768pluspx.css",
                       "~/Content/navbar.css",
+                      "~/Content/ajax-loader.css",
                       "~/Content/Site.css"));
         }
     }

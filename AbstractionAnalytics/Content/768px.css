@@ -1,0 +1,47 @@
+﻿@media only screen and (max-width: 769px) {
+
+        #main-logo {
+            padding-left:5%;
+            padding-top:3%;
+            padding-bottom:3%;
+            width:45%;
+        }
+
+        #intro-text {
+             padding-top:10%;
+             padding-left:5%;
+             padding-right:5%;
+             text-align:center;
+             font-size:24px;
+             color:#f8f8f8;
+        }
+
+        #footer-logo {
+            max-width:50%;
+            text-align:center;
+        }
+        #myFooter {
+            padding:0!important;
+        }
+
+        #contact {
+            text-align:center;
+        }
+
+        #contact-text {
+             padding:  10% 0 10% 0;
+             text-align:center;
+             font-size:24px;
+             color:#f8f8f8;
+        }
+        #contact-small {
+            margin-bottom:2%!important;
+            padding-bottom:5%;
+        }
+
+        .bigicon {
+            color: #f8f8f8 !important;
+            margin-top:2%!important;
+        }
+
+}

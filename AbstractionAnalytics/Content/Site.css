@@ -51,11 +51,7 @@ input,select,text,textarea  {
     width:100% !important;
 }
 
-#main-logo {
-    padding-top:3%;
-    padding-bottom:3%;
-    width:40%;
-}
+
 
 .header {
     color: #36A0Ff;
@@ -63,12 +59,7 @@ input,select,text,textarea  {
     padding: 10px;
 }
 
-.bigicon {
-    color: #f8f8f8 !important;
-    width:100%;
-    padding:2%;
-    margin-top:10%;
-}
+
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -106,14 +97,6 @@ input,select,text,textarea  {
     background-size: 120% 120%;
 }
 
-#intro-text {
-     padding-top:10%;
-     padding-left:22%;
-     padding-right:22%;
-     text-align:center;
-     font-size:24px;
-     color:#f8f8f8;
-}
 
 #service-text {
      padding-top:10%;
@@ -121,8 +104,6 @@ input,select,text,textarea  {
      font-size:24px;
      color:#f8f8f8;
 }
-
-
 
 .layer {
     background-color: rgba(131, 145, 192, 0.85); 

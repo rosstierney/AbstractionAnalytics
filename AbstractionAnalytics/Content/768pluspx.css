@@ -1,0 +1,47 @@
+﻿@media only screen and (min-width: 769px) {
+    
+    #main-logo {
+        padding-top:3%;
+        padding-bottom:3%;
+        width:40%;
+    }
+
+    #intro-text {
+            padding-top:10%;
+            padding-left:22%;
+            padding-right:22%;
+            text-align:center;
+            font-size:24px;
+            color:#f8f8f8;
+    }
+
+    #footer-logo {
+        max-width: 90%;
+        padding-left: 10%;
+    }
+
+    #contact {
+         max-height:600px;
+    }
+
+    #contact-small {
+        margin-bottom:2%!important;
+        padding-bottom:5%;
+    }
+
+    #contact-text {
+        max-height:600px;
+        padding:  15% 0 20% 0;
+        text-align:center;
+        font-size:24px;
+        color:#f8f8f8;
+    }
+
+    .bigicon {
+        color: #f8f8f8 !important;
+        width:100%;
+        padding:2%;
+        margin-top:10%;
+        text-align:center;
+    }
+}
