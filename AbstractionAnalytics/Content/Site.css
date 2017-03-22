@@ -97,6 +97,17 @@ input,select,text,textarea  {
     background-size: 120% 120%;
 }
 
+#info-text {
+     text-align:left;
+     font-size:18px;
+     color:#f8f8f8;
+}
+
+#info-text2 {
+     text-align:left;
+     font-size:18px;
+     color:#f8f8f8;
+}
 
 #service-text {
      padding-top:10%;
@@ -115,6 +126,30 @@ input,select,text,textarea  {
 
 .dark-layer {
     background-color: rgba(77, 86, 137, 0.85); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.light-grey-layer {
+    background-color: rgba(211, 211, 211, 0.85); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.md-grey-layer {
+    background-color: rgba(192, 192, 192, 0.85); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grey-layer {
+    background-color: rgba(128, 128, 128, 0.85); 
     top: 0;
     left: 0;
     width: 100%;
