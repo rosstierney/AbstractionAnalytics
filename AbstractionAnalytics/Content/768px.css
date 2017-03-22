@@ -1,5 +1,10 @@
 ﻿@media only screen and (max-width: 769px) {
 
+        h2 {
+            padding-top:5%;
+            margin:0 !important;
+        }
+
         #main-logo {
             padding-left:5%;
             padding-top:3%;

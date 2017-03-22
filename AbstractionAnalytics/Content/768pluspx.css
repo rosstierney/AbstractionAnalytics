@@ -20,6 +20,10 @@
         padding-left: 10%;
     }
 
+    #footer-cont {
+        height:200px;
+    }
+
     #contact {
          max-height:600px;
     }
